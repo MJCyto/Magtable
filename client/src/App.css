@@ -1,0 +1,88 @@
+html{
+  /*background-color: #E9E9E9;*/
+  font-family: 'Karla', sans-serif;
+  --border-color: #474747;
+  --border-color-light: #47474777;
+
+  /* Common across all pages */
+
+  /*Context colors - for items that have an action or have meaning other than just style.*/
+  --context-green: #00AD6E;
+  --context-red: #E72530;
+  --context-blue: #009dd3;
+  --context-grey: #b2b2b2;
+  --context-orange: #EAAB0E;
+  --context-yellow: #FFE400;
+
+  --context-green-light: #00AD6E77;
+  --context-red-light: #E7253077;
+  --context-blue-light: #187AD377;
+  --context-grey-light: #b2b2b277;
+  --context-orange-light: #EAAB0E99;
+  --context-yellow-light: #FFE40077;
+
+  --alert-warning: #ff990066;
+  --modal-bg: #fff;
+  --green-pass: #00e445;
+  --no-avop: #e397e2;
+
+  /*Used for separating elements between one another, for example, shading every second row of a table or directly opposing divs. */
+  --shader-grey: #d6d6d6;
+  --shader-blue: rgba(74, 74, 255, 0.31);
+
+  --emphasis-grey: #575757;
+
+  --section-title-bg: #615A57;
+
+  --navbar: #232f3e;
+  --navbar-light: #4a6179;
+  --header: #e5eaef;
+  --header-text: #333;
+  --sub-header: white;
+  --sub-header-text: #333;
+  --title-bright: #FFFFFF;
+
+  --link-underline: #f8991d;
+  --input-label: #aaa;
+  --title-dark: #5cdb95;
+
+  --nozzle: #ffe900;
+  --type1: orange;
+  --type4: green;
+
+}
+::selection {
+  background: #28aae1;
+}
+
+input:focus{
+  outline: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* AUTO FILL STYLING*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  /*Remove autofill styling*/
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

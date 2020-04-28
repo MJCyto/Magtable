@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666666;
+    border: 0 none #ffffff;
+    border-radius: 0;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border: 0 none #ffffff;
+    border-radius: 0;
+}
+
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
